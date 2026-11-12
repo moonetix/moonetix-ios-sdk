@@ -1,0 +1,15 @@
+{
+  "name": "moonetix-token-endpoint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Token endpoint for the Moonetix mobile SDKs: POST /api/moonetix/session returns a single-use offerwall token.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test"
+  }
+}
