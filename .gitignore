@@ -1,0 +1,14 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcframework
+*.xcframework.zip
+.swiftpm/
+Pods/
+# Node
+node_modules/
+# Local
+.env
+.DS_Store
