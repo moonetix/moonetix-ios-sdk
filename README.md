@@ -8,14 +8,13 @@
 [![SwiftPM](https://img.shields.io/badge/SwiftPM-moonetix--ios-F05138)](https://docs.moonetix.com/ios-sdk#spm)
 [![CocoaPods](https://img.shields.io/badge/CocoaPods-MoonetixOfferwall%202.0.1-EE3322)](https://docs.moonetix.com/ios-sdk#cocoapods)
 [![Docs](https://img.shields.io/badge/docs-docs.moonetix.com-004ABB)](https://docs.moonetix.com/ios-sdk)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-moonetix-ios-sdk)
 [![iOS 13+](https://img.shields.io/badge/iOS-13%2B-000000)](https://moonetix.com/integrations/ios)
 
 The [Moonetix](https://moonetix.com) iOS SDK shows the offerwall in a native screen with one call. It ships as a binary `MoonetixOfferwall.xcframework` (UIKit and WebKit only, no third-party dependencies), so this repository holds what you need around it: install steps, a minimal SwiftUI sample and the server endpoint that creates the session token. Moonetix is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer.
 
 Everything here matches SDK version 2.0.1. The binary is not in Git: Swift Package Manager and CocoaPods download it from moonetix.com and check its SHA-256.
 
-> **Get your App ID and API key: sign up free at https://moonetix.com/register?from=github-moonetix-ios-sdk**
+> To run it you need your Moonetix App ID and API key: see [Publisher account](#publisher-account).
 
 ## What this repository adds
 
@@ -244,7 +243,7 @@ More in the docs: [Troubleshooting](https://docs.moonetix.com/ios-sdk#troublesho
 
 ## Publisher account
 
-You need an approved account for the App ID and API key: **https://moonetix.com/register?from=github-moonetix-ios-sdk**. Every application is reviewed by a person. Then add the app, set its currency name and rate, and set `MOONETIX_API_KEY` for the token endpoint.
+You need an approved account for the App ID and API key: https://moonetix.com/register?from=github-moonetix-ios-sdk. Every application is reviewed by a person. Then add the app, set its currency name and rate, and set `MOONETIX_API_KEY` for the token endpoint.
 
 ## More Moonetix examples
 
