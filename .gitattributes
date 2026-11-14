@@ -1,0 +1,6 @@
+# Language statistics describe the Swift sample app. GitHub skips folders
+# named Sample by default, and the release tooling and the token endpoint
+# are support code around it.
+Sample/** -linguist-documentation
+.github/scripts/** -linguist-detectable
+token-endpoint/** -linguist-detectable
